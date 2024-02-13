@@ -26,7 +26,7 @@ async def outlier():
 
 
 
-# Example usage: http://localhost:8000/percentiles/salary?percentiles=25,50,75
+# Example usage: http://127.0.0.1:8000/calculate_percentile/?percentile=75
 
 
 

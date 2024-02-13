@@ -10,7 +10,8 @@ q3 = df.Height.quantile(0.75)
 
 iqr = q3-q1
 
-#print(iqr)
+print(iqr)
+print(df.describe())
 
 lower_limit = q1 - 1.5 * iqr
 higher_limit = q3 + 1.5 * iqr

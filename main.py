@@ -6,7 +6,7 @@ app = FastAPI()
 
 
 df = pd.read_excel(r"C:\Users\venki\OneDrive\Documents\working.xlsx")
-df1 = pd.read_excel(r"C:\Users\venki\OneDrive\Documents\Statistics\Statistics3.xlsx")
+#df1 = pd.read_excel(r"C:\Users\venki\OneDrive\Documents\Statistics\Statistics3.xlsx")
 
 
 @app.get("/calculate_percentile/")
